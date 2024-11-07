@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main_box{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    margin: 100px auto;
+
+}
+
+
+.top_sec{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    gap: 5px;
+
+
+}
+
+.bottom_sec{
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+ }
+
+ .name{
+    width: 100%;
+}
+.name, .mail, .num, .sign{
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.sign{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}

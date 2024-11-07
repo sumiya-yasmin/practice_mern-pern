@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .bg{
+    background-color: rgb(198, 198, 188) ;
+    height: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 50%;
+    margin: 100px auto;
+
+} 
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    /* Here justify-content: space around doesnt work
+     due to insufficient space. for that width can be set 100% */
+    /* gap: 30px; */
+    width: 100%;
+}
+
+.btn_1{
+    background: black;
+    color: white;
+    border-width: 5px;
+    border-style: solid;
+    border-color:white;
+    padding: 15px 25px;
+    font-size: 16px;
+
+}
+.btn_2{
+    background-color:rgb(255, 213, 69) ;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 16px;
+}
+.btn_3{
+    background-color: green;
+    padding: 15px 25px;
+    color: white;
+    font-size: 16px;
+}
