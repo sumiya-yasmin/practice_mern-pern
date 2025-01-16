@@ -1,0 +1,40 @@
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    gap: 50px;
+    /* padding: 40px 10px; */
+  
+  }
+  /* nav p{
+    font-size: 2rem;
+    font-weight: 700;
+  
+  } */
+  nav{
+    display: flex;
+    justify-content:flex-end;
+    padding: 20px 10px;
+  
+  }
+  @media screen and (max-width:768px) {
+    nav{
+        justify-content:center;
+    }
+    
+    nav p{
+        display:none;
+    }
+    nav ul{
+        /* flex-direction: column; */
+        justify-content:space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+       
+        
+    }
+    /* nav ul a{
+        background-color:#254558;
+        width: 100%;
+    } */
+  }

@@ -1,0 +1,35 @@
+.social ol{
+    display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    /* color: #eaff50; */
+  
+  }
+  .social li{
+    padding: 10px 5px 10px 0px;
+    transition: .5s ease;
+  }
+  .social li:hover{
+    box-shadow: 0 12px 24px rgba(0,0,0 ,0.3);
+  }
+  @media screen and (max-width:768px) {
+    .social{
+        padding: 10px;
+    }
+    .social ol{
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20px;
+    }
+    
+  }
+
+  .bxl-linkedin{
+    background-color: #0072B1 ;
+    padding: 3px;
+  }
+  .bxl-github{
+    background-color: black;
+    padding: 3px;
+  }
